@@ -1,61 +1,93 @@
-Welcome to SlimRoms
-===================
+<img src="https://raw.github.com/BlissRoms/platform_manifest/mm6.0/bliss-logo.png">
 
-
-Getting Started
+Getting Started 
 ---------------
 
-To get started with SlimLP, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+To get started with Android/Bliss, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-Please take note that we have two main line branches depending on
-which hardware base your phone is working.
-
-If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the lp5.0-caf branch which pulls for the effected packages
-the correct caf version for you.
-
-To initialize your local repository using the SlimLP trees, use this command:
+To initialize your local repository using the Bliss trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b mm6.0
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b mm6.0
 
+Then to sync up:
 
+    repo sync -j#
 
-Then sync up with this command:
+This(j#) depends on number of cpu cores - use just "repo sync" if you are unsure.
 
-	repo sync
+To build for your device.
 
+. build/envsetup.sh
 
+breakfast `device name here`
 
-Submitting Patches
+brunch `device name here`
+
+or make it all in one line.
+
+. build/envsetup.sh && breakfast `device name here` && brunch *device name here*
+
+For more information on this Github Organization and how it is structured,
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+
+***
+
+Using Build Script
 ------------------
 
-We're open source, and patches are always welcome!
-You can send patches by using these commands:
+run command  ". build.sh" and follow the command prompts.
 
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
-    cd <project>
-    git add -A
-    git commit -a
-    cd <workspace>
-    repo upload SlimRoms/<project>
 
-Commit your patches in a single commit.
+GERRIT
+------
+review.blissroms.com
 
-Squash multiple commit using this command:
+If you would like to contribute to the blissrom project submit patches to:
+`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
 
-	git rebase -i HEAD~<# of commits>
+HOW TO SUBMIT TO OUR GERRIT:
 
-If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
+First and foremost, setup your github with out Gerrit.
 
-	git commit -a
+Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
+   -Select from the list and copy clone command line.
 
-use
+Make sure you have git review installed
+   - sudo apt-get install git-review
+   
+Make sure you are on the correct branch----mm6.0
 
-	git commit --amend
+Make your change and commit it
 
-Gerrit will recognize it as a new patchset.
+Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
 
-To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.org)
+BLISS BUILD FLAGS
+-----------------
+
+These can be added to your device trees BoardConfig.mk
+
+`BLISS_STRICT:= true`    "run strict aliasing"
+
+`BLISS_O3 := true`   run   "O3 optimizations on build"
+
+`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
+
+`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
+
+`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
+
+`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
+
+`TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
+
+@@= Toolchains are located in prebuilts/gcc/linux-x86/arm You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain, this goes for both ROM and KERNEL.
+
+If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to BoardConfig.mk as well
+
+`TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)`
+
+`TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
+
+Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`
