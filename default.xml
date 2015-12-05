@@ -25,6 +25,7 @@
   <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" remote="github" revision="mm6.0" />
   <project path="frameworks/native" name="BlissRoms/platform_frameworks_native" remote="github" revision="mm6.0" />
   <project path="system/core" name="BlissRoms/platform_system_core" remote="github" revision="mm6.0" />
+  <project path="packages/apps/BlissSettings" name="BlissRoms/platform_packages_apps_BlissSettings" remote="github" revision="mm6.0" />
 
   <!-- Slim Repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
