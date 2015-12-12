@@ -8,26 +8,25 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the Bliss trees, use this command:
 
-
     repo init -u https://github.com/BlissRoms/platform_manifest.git -b mm6.0
 
 Then to sync up:
 
     repo sync -j#
 
-This(j#) depends on number of cpu cores - use just "repo sync" if you are unsure.
+`j#` depends on the number of cpu cores - just use `repo sync` if you are unsure.
 
-To build for your device.
+To build for your device:
 
-. build/envsetup.sh
+	. build/envsetup.sh
 
-breakfast `device name here`
+	breakfast `device name here`
 
-brunch `device name here`
+	brunch `device name here`
 
-or make it all in one line.
+or make it all in one line:
 
-. build/envsetup.sh && breakfast `device name here` && brunch *device name here*
+	. build/envsetup.sh && breakfast `device name here` && brunch `device name here`
 
 For more information on this Github Organization and how it is structured,
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
@@ -37,31 +36,36 @@ please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization
 Using Build Script
 ------------------
 
-run command  ". build.sh" and follow the command prompts.
+run command 
+
+	. build.sh 
+	
+and follow the command prompts.
 
 
 GERRIT
 ------
 review.blissroms.com
 
-If you would like to contribute to the blissrom project submit patches to:
-`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
+If you would like to contribute to the Bliss project submit patches to
+`review.blissroms.com`. Then head into the project and clone it locally, make changes and push back to Bliss review.
 
 HOW TO SUBMIT TO OUR GERRIT:
 
 First and foremost, setup your github with out Gerrit.
 
 Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
-   -Select from the list and copy clone command line.
+   - Select from the list and copy the clone command line.
 
 Make sure you have git review installed
-   - sudo apt-get install git-review
+   - `sudo apt-get install git-review` or `sudo pacman -S git-review`
    
 Make sure you are on the correct branch----mm6.0
 
-Make your change and commit it
+Make your change and commit it.
 
 Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
+
 
 BLISS BUILD FLAGS
 -----------------
@@ -70,15 +74,15 @@ These can be added to your device trees BoardConfig.mk
 
 `BLISS_STRICT:= true`    "run strict aliasing"
 
-`BLISS_O3 := true`   run   "O3 optimizations on build"
+`BLISS_O3 := true`    "run O3 optimizations on build"
 
-`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
+`BLISS_GRAPHITE := true`    "run graphite optimizations on build"
 
-`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
+`BLISS_KRAIT := true`    "run krait optimizations on build - CPU specific, please verify if you can use this"
 
-`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
+`BLISS_PIPE := true`   "This flag has actually no effect on the generated code, but it makes the compilation process faster."
 
-`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
+`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with.
 
 `TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
 
@@ -89,5 +93,3 @@ If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to Bo
 `TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)`
 
 `TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
-
-Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`

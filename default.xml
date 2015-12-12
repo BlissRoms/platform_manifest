@@ -8,32 +8,36 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.blissroms.com" />
+           review="review.cyanogenmod.org" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          review="review.blissroms.com" />
+
+  <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
 
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <!-- Bliss Repos -->
-  <project path="build" name="BlissRoms/platform_build" remote="github" revision="mm6.0" >
+<!-- BEGIN BLISS -->
+  <project path="build" name="platform_build" remote="BlissRoms" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="platform_manifest" name="BlissRoms/platform_manifest" remote="github" revision="mm6.0" />  
-  <project path="vendor/bliss" name="BlissRoms/platform_vendor_bliss" remote="github" revision="mm6.0" />  
-  <project path="art" name="BlissRoms/platform_art" remote="github" revision="mm6.0"  />
-  <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" remote="github" revision="mm6.0" />
-  <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" remote="github" revision="mm6.0" />
-  <project path="frameworks/native" name="BlissRoms/platform_frameworks_native" remote="github" revision="mm6.0" />
-  <project path="system/core" name="BlissRoms/platform_system_core" remote="github" revision="mm6.0" />
-  <project path="packages/apps/BlissSettings" name="BlissRoms/platform_packages_apps_BlissSettings" remote="github" revision="mm6.0" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="mm6.0" />  
+  <project path="art" name="platform_art" remote="BlissRoms" revision="mm6.0"  />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="mm6.0" />
+  <project path="packages/apps/BlissSettings" name="platform_packages_apps_BlissSettings" remote="BlissRoms" revision="mm6.0" /> 
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="mm6.0" />
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="mm6.0" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="mm6.0" />  
+<!-- END BLISS -->
 
-	
-	<!-- BEGIN CYANOGENMOD -->
+<!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
@@ -551,5 +555,30 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+<!-- BEGIN TOOLCHAINS -->
+  <!-- SABERMOD ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="xanaxdroid/arm-linux-androideabi-4.8" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-sm" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0-sm" name="xanaxdroid/arm-linux-androideabi-6.0" remote="bitbucket" revision="sabermod" />
+
+  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="xanaxdroid/arm-eabi-4.8" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-sm" name="xanaxdroid/arm-eabi-5.2" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
+
+   <!-- LINARO ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-linaro" name="UBERTC/arm-linux-androideabi-5.2" remote="bitbucket" revision="master" />
+  
+  <!-- LINARO KERNEL TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-linaro" name="UBERTC/arm-eabi-5.2" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" />
+<!-- END TOOLCHAINS -->  
 
 </manifest>
