@@ -12,6 +12,9 @@
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
           review="review.blissroms.com" />
+          
+  <remote name="BlissRoms-Devices"
+          fetch="https://github.com/BlissRoms-Devices" />
 
   <remote name="cm"
           fetch="https://github.com/CyanogenMod" 
