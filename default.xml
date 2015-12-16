@@ -567,13 +567,13 @@
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="xanaxdroid/arm-linux-androideabi-4.8" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-sm" name="xanaxdroid/arm-linux-androideabi-5.2" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-sm" name="xanaxdroid/arm-linux-androideabi-5.3" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0-sm" name="xanaxdroid/arm-linux-androideabi-6.0" remote="bitbucket" revision="sabermod" />
 
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="xanaxdroid/arm-eabi-4.8" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-sm" name="xanaxdroid/arm-eabi-5.2" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
 
    <!-- LINARO ROM TOOLCHAINS -->
