@@ -36,7 +36,7 @@
   <project path="art" name="platform_art" remote="BlissRoms" revision="mm6.0" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-13.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="mm6.0" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="stable" />
