@@ -34,6 +34,7 @@
   </project>
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="mm6.0" />  
   <project path="art" name="platform_art" remote="BlissRoms" revision="mm6.0" />
+  <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
@@ -75,7 +76,6 @@
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
