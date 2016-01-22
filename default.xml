@@ -44,6 +44,7 @@
   <project path="packages/apps/BlissSettings" name="platform_packages_apps_BlissSettings" remote="BlissRoms" revision="mm6.0" />
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="mm6.0" />
+  <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="BlissRoms" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" remote="github" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="mm6.0" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="mm6.0" />
@@ -279,7 +280,6 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
