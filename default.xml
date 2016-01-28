@@ -15,6 +15,9 @@
           
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
+          
+  <remote name="BlissRoms-Kernels"
+          fetch="https://github.com/BlissRoms-Kernels" />
 
   <remote name="cm"
           fetch="https://github.com/CyanogenMod" 
