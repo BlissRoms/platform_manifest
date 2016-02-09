@@ -37,6 +37,7 @@
   </project>
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="mm6.0" />
   <project path="art" name="platform_art" remote="BlissRoms" revision="mm6.0" />
+  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
@@ -61,7 +62,6 @@
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
