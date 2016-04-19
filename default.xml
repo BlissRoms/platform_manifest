@@ -4,20 +4,18 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r24" />
+           revision="refs/tags/android-6.0.1_r31" />
 
   <remote  name="github"
            fetch=".." />
 
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
-          review="review.blissroms.com" />
+          review="review.blissroms.com" 
+          revision="mm6.0" />
           
-  <remote name="BlissRoms-Devices"
-          fetch="https://github.com/BlissRoms-Devices" />
-          
-  <remote name="BlissRoms-Kernels"
-          fetch="https://github.com/BlissRoms-Kernels" />
+  <remote name="MI-4i"
+          fetch="https://github.com/MI-4i" />
 
   <remote name="cm"
           fetch="https://github.com/CyanogenMod" 
@@ -32,35 +30,35 @@
            sync-j="4" />
 
 <!-- BEGIN BLISS -->
-  <project path="build" name="platform_build" remote="BlissRoms" revision="mm6.0" >
+  <project path="build" name="MI-4i/build" revision="mm6.0"  >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="mm6.0" />
-  <project path="art" name="platform_art" remote="BlissRoms" revision="mm6.0" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="mm6.0" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="mm6.0" />
-  <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" />
-  <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" remote="github" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="mm6.0" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="mm6.0" />
-  <project path="vendor/cmsdk" name="platform_sdk" remote="BlissRoms" revision="mm6.0" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="mm6.0" />  
+  <project path="manifest" name="MI-4i/platform_manifest-1" revision="mm6.0"  />
+  <project path="art" name="BlissRoms/platform_art" revision="mm6.0" />
+  <project path="bionic" name="BlissRoms/platform_bionic" revision="mm6.0" />
+  <project path="device/qcom/sepolicy" name="BlissRoms/platform_device_qcom_sepolicy" revision="mm6.0" />
+  <project path="external/busybox" name="BlissRoms/platform_external_busybox" revision="mm6.0" />
+  <project path="external/chromium-webview" name="BlissRoms/platform_external_chromium-webview" clone-depth="1" revision="mm6.0" />
+  <project path="external/sepolicy" name="BlissRoms/platform_external_sepolicy" revision="mm6.0" />
+  <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" revision="mm6.0" />
+  <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
+  <project path="frameworks/opt/telephony" name="BlissRoms/platform_frameworks_opt_telephony" revision="mm6.0" />
+  <!--project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" revision="8994" /-->
+  <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" revision="m" />
+  <project path="packages/apps/Bluetooth" name="BlissRoms/platform_packages_apps_Bluetooth" revision="mm6.0" />
+  <project path="packages/apps/DeskClock" name="BlissRoms/platform_packages_apps_DeskClock" revision="mm6.0" />
+  <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
+  <project path="packages/apps/OmniSwitch" name="BlissRoms/platform_packages_apps_OmniSwitch" revision="mm6.0" />
+  <project path="packages/apps/PackageInstaller" name="BlissRoms/platform_packages_apps_PackageInstaller" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" revision="mm6.0" />
+  <project path="packages/apps/ThemeChooser" name="BlissRoms/platform_packages_apps_ThemeChooser" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" />
+  <project path="packages/providers/MediaProvider" name="BlissRoms/platform_packages_providers_MediaProvider" revision="mm6.0" />
+  <project path="packages/services/Telecomm" name="BlissRoms/platform_packages_services_Telecomm" revision="mm6.0" />
+  <project path="packages/services/Telephony" name="BlissRoms/platform_packages_services_Telephony" revision="mm6.0" />
+  <project path="system/core" name="BlissRoms/platform_system_core" revision="mm6.0" />
+  <project path="vendor/cmsdk" name="BlissRoms/platform_sdk" revision="mm6.0" />
+  <project path="vendor/bliss" name="MI-4i/platform_vendor_bliss" revision="mm6.0" />  
 <!-- END BLISS -->
 
 
@@ -173,7 +171,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="MI-4i/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -559,6 +557,15 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+<!-- MI-4i-->
+  <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" />
+  <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
+  <project path="vendor/google/build" name="MI-4i/aosp_build" revision="master" />
+  <project path="vendor/opengapps/sources/all" name="MI-4i/all" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm" name="MI-4i/arm" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm64" name="MI-4i/arm64" clone-depth="1" />
+  <project path="packages/apps/SnapdragonCamera" name="MI-4i/packages_apps_SnapdragonCamera" />
 
 <!-- BEGIN TOOLCHAINS -->
   <!-- SABERMOD ROM TOOLCHAINS -->
