@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="art" name="BlissRoms/platform_art" revision="mm6.0" />
+  <project path="bionic" name="BlissRoms/platform_bionic" revision="mm6.0" />
+  <project path="device/qcom/sepolicy" name="BlissRoms/platform_device_qcom_sepolicy" revision="mm6.0" />
+  <project path="external/busybox" name="BlissRoms/platform_external_busybox" revision="mm6.0" />
+  <project path="external/chromium-webview" name="BlissRoms/platform_external_chromium-webview" clone-depth="1" revision="mm6.0" />
+  <project path="external/sepolicy" name="BlissRoms/platform_external_sepolicy" revision="mm6.0" />
+  <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" revision="mm6.0" />
+  <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
+  <project path="frameworks/opt/telephony" name="BlissRoms/platform_frameworks_opt_telephony" revision="mm6.0" />
+  <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" revision="m" />
+  <project path="packages/apps/Bluetooth" name="BlissRoms/platform_packages_apps_Bluetooth" revision="mm6.0" />
+  <project path="packages/apps/DeskClock" name="BlissRoms/platform_packages_apps_DeskClock" revision="mm6.0" />
+  <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
+  <project path="packages/apps/OmniSwitch" name="BlissRoms/platform_packages_apps_OmniSwitch" revision="mm6.0" />
+  <project path="packages/apps/PackageInstaller" name="BlissRoms/platform_packages_apps_PackageInstaller" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" revision="mm6.0" />
+  <project path="packages/apps/ThemeChooser" name="BlissRoms/platform_packages_apps_ThemeChooser" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" />
+  <project path="packages/providers/MediaProvider" name="BlissRoms/platform_packages_providers_MediaProvider" revision="mm6.0" />
+  <project path="packages/services/Telecomm" name="BlissRoms/platform_packages_services_Telecomm" revision="mm6.0" />
+  <project path="packages/services/Telephony" name="BlissRoms/platform_packages_services_Telephony" revision="mm6.0" />
+  <project path="system/core" name="BlissRoms/platform_system_core" revision="mm6.0" />
+  <project path="vendor/cmsdk" name="BlissRoms/platform_sdk" revision="mm6.0" />
+
+</manifest>

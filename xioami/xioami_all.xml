@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <project path="build" name="MI-4i/build" revision="mm6.0"  >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="manifest" name="MI-4i/platform_manifest-1" revision="mm6.0"  />
+  <project path="vendor/bliss" name="MI-4i/platform_vendor_bliss" revision="mm6.0" />  
+
+  <!-- MI-4i-->
+  <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="mm6.0" />
+  <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
+  <project path="vendor/google/build" name="MI-4i/aosp_build" revision="master" />
+  <project path="vendor/opengapps/sources/all" name="MI-4i/all" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm" name="MI-4i/arm" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm64" name="MI-4i/arm64" clone-depth="1" />
+  <project path="packages/apps/SnapdragonCamera" name="MI-4i/packages_apps_SnapdragonCamera" />
+
+</manifest>
