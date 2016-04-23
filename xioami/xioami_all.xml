@@ -9,6 +9,7 @@
 
   <!-- MI-4i-->
   <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="mm6.0" />
+  <project path="packages/apps/SetupWizard" name="MI-4i/android_packages_apps_SetupWizard" />
   <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
   <project path="vendor/google/build" name="MI-4i/aosp_build" revision="master" />
   <project path="vendor/opengapps/sources/all" name="MI-4i/all" clone-depth="1" />
