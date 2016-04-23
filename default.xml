@@ -35,6 +35,7 @@
   <include name="xioami/xioami_all.xml" />
   <include name="bliss/bliss_all.xml" />
   <include name="aosp/aosp_all.xml" />
+  <include name="xioami/google/google_all.xml" />
   <include name="CyanogenMod/CyanogenMod_all.xml" />
 
 </manifest>
