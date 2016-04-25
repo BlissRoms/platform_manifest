@@ -10,6 +10,7 @@
   <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="BlissRoms/platform_frameworks_opt_telephony" revision="mm6.0" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" revision="m" />
+  <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" revision="m" />
   <project path="packages/apps/Bluetooth" name="BlissRoms/platform_packages_apps_Bluetooth" revision="mm6.0" />
   <project path="packages/apps/DeskClock" name="BlissRoms/platform_packages_apps_DeskClock" revision="mm6.0" />
   <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
