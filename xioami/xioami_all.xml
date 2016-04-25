@@ -8,7 +8,7 @@
   <project path="vendor/bliss" name="MI-4i/platform_vendor_bliss" revision="mm6.0" />  
 
   <!-- MI-4i-->
-  <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="mm6.0" />
+  <project path="device/xiaomi/ferrari" name="MI-4i/android_device_xiaomi_ferrari" revision="mm6.0.1" />
   <project path="packages/apps/AudioFX" name="MI-4i/android_packages_apps_AudioFX" />
   <project path="packages/apps/SetupWizard" name="MI-4i/android_packages_apps_SetupWizard" />
   <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
