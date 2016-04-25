@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="art" name="BlissRoms/platform_art" revision="mm6.0" />
-  <project path="bionic" name="BlissRoms/platform_bionic" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="BlissRoms/platform_device_qcom_sepolicy" revision="mm6.0" />
   <project path="external/busybox" name="BlissRoms/platform_external_busybox" revision="mm6.0" />
   <project path="external/chromium-webview" name="BlissRoms/platform_external_chromium-webview" clone-depth="1" revision="mm6.0" />
