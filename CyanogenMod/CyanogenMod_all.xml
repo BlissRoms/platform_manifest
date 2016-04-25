@@ -60,7 +60,7 @@
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
+  <project path="external/libtar" name="MI-4i/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
