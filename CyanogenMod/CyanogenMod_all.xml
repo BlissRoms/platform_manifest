@@ -235,6 +235,11 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
+ <!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+ <!-- END CMSDK SAMPLES -->
+
 <!-- END CYANOGENMOD -->
 
 </manifest>
