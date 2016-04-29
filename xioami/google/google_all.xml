@@ -2,6 +2,6 @@
 <manifest>
   <project path="vendor/google/build" name="MI-4i/aosp_build" revision="master" />
   <project path="vendor/opengapps/sources/all" name="opengapps/all" clone-depth="1" revision="master" />
-  <project path="vendor/opengapps/sources/arm" name="opengapps/arm" clone-depth="1" revision="master" />
+  <!--project path="vendor/opengapps/sources/arm" name="opengapps/arm" clone-depth="1" revision="master" /-->
   <project path="vendor/opengapps/sources/arm64" name="opengapps/arm64" clone-depth="1" revision="master" />
 </manifest>
