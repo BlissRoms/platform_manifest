@@ -229,6 +229,20 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp"  />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp"  />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp"  />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp"  />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp"  />
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp"  />
 <!-- END AOSP -->
 
 
