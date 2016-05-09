@@ -7,7 +7,6 @@
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
-  <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="mm6.0" />
