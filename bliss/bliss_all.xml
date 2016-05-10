@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="mm6.0" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
+  <project path="bionic" name="BlissRoms/platform_bionic" revision="mm6.0" />
+  <project path="device/qcom/sepolicy" name="BlissRoms/platform_device_qcom_sepolicy" revision="mm6.0" />
+  <project path="external/busybox" name="BlissRoms/platform_external_busybox" revision="mm6.0" />
+  <project path="external/chromium-webview" name="BlissRoms/platform_external_chromium-webview" clone-depth="1" revision="mm6.0" />
+  <project path="external/sepolicy" name="BlissRoms/platform_external_sepolicy" revision="mm6.0" />
+  <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" revision="mm6.0" />
+  <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/apps/ThemeChooser" name="platform_packages_apps_ThemeChooser" remote="BlissRoms" revision="mm6.0" />
-  <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" remote="github" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="mm6.0" />
-  <project path="vendor/cmsdk" name="platform_cmsdk" remote="BlissRoms" revision="mm6.0" />
+  <project path="packages/apps/DeskClock" name="BlissRoms/platform_packages_apps_DeskClock" revision="mm6.0" />
+  <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
+  <project path="packages/apps/OmniSwitch" name="BlissRoms/platform_packages_apps_OmniSwitch" revision="mm6.0" />
+  <project path="packages/apps/PackageInstaller" name="BlissRoms/platform_packages_apps_PackageInstaller" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" revision="mm6.0" />
+  <project path="packages/apps/ThemeChooser" name="BlissRoms/platform_packages_apps_ThemeChooser" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="BlissRoms/BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" remote="github" />
+  <project path="packages/services/Telephony" name="BlissRoms/platform_packages_services_Telephony" revision="mm6.0" />
+  <project path="vendor/cmsdk" name="BlissRoms/platform_cmsdk" revision="mm6.0" />
 
 </manifest>
