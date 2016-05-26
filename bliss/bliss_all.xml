@@ -8,6 +8,7 @@
   <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" revision="mm6.0" />
   <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
+  <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="BlissRoms" revision="mm6.0" /> 
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
   <project path="packages/apps/DeskClock" name="BlissRoms/platform_packages_apps_DeskClock" revision="mm6.0" />
   <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
