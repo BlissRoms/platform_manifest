@@ -6,7 +6,7 @@
   <project path="external/chromium-webview" name="BlissRoms/platform_external_chromium-webview" clone-depth="1" revision="mm6.0" />
   <project path="external/sepolicy" name="BlissRoms/platform_external_sepolicy" revision="mm6.0" />
   <project path="frameworks/av" name="BlissRoms/platform_frameworks_av" revision="mm6.0" />
-  <project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" />
+  <!--project path="frameworks/base" name="BlissRoms/platform_frameworks_base" revision="mm6.0" /-->
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
   <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="BlissRoms" revision="mm6.0" /> 
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
