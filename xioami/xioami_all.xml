@@ -10,6 +10,7 @@
   <project path="packages/apps/AudioFX" name="MI-4i/android_packages_apps_AudioFX" />
   <!--project path="packages/apps/SetupWizard" name="MI-4i/android_packages_apps_SetupWizard" /-->
   <project path="vendor/xiaomi/ferrari" name="MI-4i/android_vendor_xiaomi_ferrari" />
+  <project path="frameworks/base" name="MI-4i/platform_frameworks_base" revision="mm6.0" />
   <!--project path="packages/apps/SnapdragonCamera" name="MI-4i/packages_apps_SnapdragonCamera" /-->
 
 </manifest>
