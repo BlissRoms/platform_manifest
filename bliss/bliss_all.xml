@@ -14,7 +14,7 @@
   <project path="packages/apps/InCallUI" name="BlissRoms/platform_packages_apps_InCallUI" revision="mm6.0" />
   <project path="packages/apps/OmniSwitch" name="BlissRoms/platform_packages_apps_OmniSwitch" revision="mm6.0" />
   <project path="packages/apps/PackageInstaller" name="BlissRoms/platform_packages_apps_PackageInstaller" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" revision="mm6.0" />
+  <!--project path="packages/apps/Settings" name="BlissRoms/platform_packages_apps_Settings" revision="mm6.0" /-->
   <project path="packages/apps/ThemeChooser" name="BlissRoms/platform_packages_apps_ThemeChooser" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" />
   <project path="packages/services/Telephony" name="BlissRoms/platform_packages_services_Telephony" revision="mm6.0" />
