@@ -18,6 +18,6 @@
   <project path="packages/apps/ThemeChooser" name="BlissRoms/platform_packages_apps_ThemeChooser" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" />
   <project path="packages/services/Telephony" name="BlissRoms/platform_packages_services_Telephony" revision="mm6.0" />
-  <project path="vendor/cmsdk" name="BlissRoms/platform_cmsdk" revision="mm6.0" />
+  <!--project path="vendor/cmsdk" name="BlissRoms/platform_cmsdk" revision="mm6.0" /-->
 
 </manifest>
