@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com" />
+
+  <remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          review="review.blissroms.com" />
+          
+  <remote name="BlissRoms-Devices"
+          fetch="https://github.com/BlissRoms-Devices" />
+          
+  <remote name="BlissRoms-Kernels"
+          fetch="https://github.com/BlissRoms-Kernels" />
+
+  <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
+
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+<!-- BEGIN BLISS -->
+  <project path="build" name="platform_build" remote="BlissRoms" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="n7.0" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.0" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.0" />
+<!-- END BLISS -->
+
+<!-- BEGIN AOSP -->  
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -26,8 +47,6 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -48,19 +67,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" />
-  <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
-  <project path="device/linaro/hikey" name="device/linaro/hikey" />
-  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -307,7 +314,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -422,7 +428,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -531,5 +536,30 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+<!-- END AOSP -->
+
+<!-- BEGIN TOOLCHAINS -->
+  <!-- SABERMOD ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4-sm" name="xanaxdroid/arm-linux-androideabi-5.4" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1-sm" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bitbucket" revision="sabermod" />
+
+  <!-- SABERMOD ROM TOOLCHAINS ARM64 -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-sm" name="xanaxdroid/aarch64-linux-android-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.4-sm" name="xanaxdroid/aarch64-linux-android-5.4" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-sm" name="xanaxdroid/aarch64-linux-android-6.1" remote="bitbucket" revision="sabermod" />
+
+  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-sm" name="xanaxdroid/arm-eabi-7.0" remote="bitbucket" revision="sabermod" />
+
+  <!--SABERMOD KERNEL TOOLCHAINS ARM64 -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-4.9-sm" name="xanaxdroid/aarch64-4.9" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-5.4-sm" name="xanaxdroid/aarch64-5.4" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1-sm" name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0-sm" name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
+<!-- END TOOLCHAINS -->
 
 </manifest>
