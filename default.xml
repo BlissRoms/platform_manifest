@@ -7,15 +7,18 @@
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
           review="review.blissroms.com" />
-          
+
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
-          
+
   <remote name="BlissRoms-Kernels"
           fetch="https://github.com/BlissRoms-Kernels" />
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
   <remote name="bitbucket" 
-          fetch="https://bitbucket.org/" />
+          fetch="https://bitbucket.org" />
 
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
