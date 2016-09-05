@@ -14,11 +14,14 @@
   <remote name="BlissRoms-Kernels"
           fetch="https://github.com/BlissRoms-Kernels" />
 
-  <remote  name="github"
-           fetch="https://github.com" />
+  <remote name="github"
+          fetch="https://github.com" />
 
   <remote name="bitbucket" 
           fetch="https://bitbucket.org" />
+
+  <remote name="gitlab-incom"
+          fetch="https://gitlab.incom.co" />
 
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
@@ -28,12 +31,16 @@
   <project path="build" name="platform_build" remote="BlissRoms" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="n7.0" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.0" />
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.0" />
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.0" />
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.0" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.0" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
 <!-- END BLISS -->
 
 <!-- BEGIN AOSP -->  
@@ -341,7 +348,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -351,7 +357,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
@@ -510,7 +515,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -520,7 +524,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
