@@ -80,12 +80,6 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips64" name="device/generic/mini-emulator-mips64" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
@@ -428,12 +422,10 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -557,22 +549,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.4-sm" name="xanaxdroid/arm-linux-androideabi-5.4" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1-sm" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bitbucket" revision="sabermod" />
 
-  <!-- SABERMOD ROM TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-sm" name="xanaxdroid/aarch64-linux-android-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.4-sm" name="xanaxdroid/aarch64-linux-android-5.4" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-sm" name="xanaxdroid/aarch64-linux-android-6.1" remote="bitbucket" revision="sabermod" />
-
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-sm" name="xanaxdroid/arm-eabi-7.0" remote="bitbucket" revision="sabermod" />
-
-  <!--SABERMOD KERNEL TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-4.9-sm" name="xanaxdroid/aarch64-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-5.4-sm" name="xanaxdroid/aarch64-5.4" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1-sm" name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0-sm" name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
-<!-- END TOOLCHAINS -->
+ <!-- END TOOLCHAINS -->
 
 </manifest>
