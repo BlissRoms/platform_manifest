@@ -14,6 +14,9 @@
   <remote name="BlissRoms-Kernels"
           fetch="https://github.com/BlissRoms-Kernels" />
 
+  <remote name="BlissRoms-Vendor" 
+          fetch="https://github.com/BlissRoms-Vendor" />
+
   <remote name="github"
           fetch="https://github.com" />
 
