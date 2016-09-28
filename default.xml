@@ -555,6 +555,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-sm" name="xanaxdroid/arm-eabi-7.0" remote="bitbucket" revision="sabermod" />
+
+  <!--  KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="marshmallow-dev" />
+
  <!-- END TOOLCHAINS -->
 
 </manifest>
