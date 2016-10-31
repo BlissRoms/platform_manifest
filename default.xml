@@ -73,6 +73,29 @@
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms"/>
   <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="BlissRoms"/>
 
+  <!-- CM -->
+  <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="cm"/>
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="cm" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm"/>
+  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="cm" />
+  <project name="android_external_apache-http" path="external/apache-http" remote="cm" revision="staging/cm-14.0"/>
+  <project name="android_external_bash" path="external/bash" remote="cm"/>
+  <project name="android_external_connectivity" path="external/connectivity" remote="cm"/>
+  <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="cm"/>
+  <project name="android_external_elfutils" path="external/elfutils" remote="cm"/>
+  <project name="android_external_ffmpeg" path="external/ffmpeg" remote="cm"/>
+  <project name="android_external_fsck_msdos" path="external/fsck_msdos" remote="cm"/>
+  <project name="android_external_fuse" path="external/fuse" remote="cm"/>
+  <project name="android_external_htop" path="external/htop" remote="cm"/>
+  <project name="android_external_libncurses" path="external/libncurses" remote="cm"/>
+  <project name="android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" remote="cm"/>
+  <project name="android_external_mksh" path="external/mksh" remote="cm"/>
+  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="cm"/>
+  <project name="android_external_openssh" path="external/openssh" remote="cm"/>
+  <project name="android_external_rsync"  path="external/rsync" remote="cm"/>
+  <project name="android_external_stagefright-plugins" path="external/stagefright-plugins" remote="cm"/>
+  <project name="android_external_zlib" path="external/zlib" remote="cm"/>
+
   <!-- CodeAurora -->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
