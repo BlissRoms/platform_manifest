@@ -72,6 +72,12 @@
   <project name="platform_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="BlissRoms"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms"/>
   <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="BlissRoms"/>
+  <project name="platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="BlissRoms"/>
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms"/>
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="BlissRoms" revision="n7.0-caf"/>
+  <project name="platform_hardware_qcom_camera" path="hardware/qcom/camera" remote="BlissRoms" />
+  <project name="platform_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="BlissRoms" />
+  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="BlissRoms" />
 
   <!-- CM -->
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="cm"/>
