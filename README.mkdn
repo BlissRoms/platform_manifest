@@ -1,0 +1,57 @@
+<img src="https://raw.github.com/BlissRoms/platform_manifest/n7.1-caf/bliss-logo.png">
+
+Getting Started 
+---------------
+
+To get started with Android/Bliss, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the Bliss trees, use this command:
+
+
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b n7.1-caf
+
+Then to sync up:
+
+    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+This(j#) depends on number of cpu cores - use just "repo sync" if you are unsure.
+
+To build for your device.
+
+. build/envsetup.sh
+
+breakfast `device name here`
+
+brunch `device name here`
+
+or make it all in one line.
+
+. build/envsetup.sh && breakfast `device name here` && brunch `device name here`
+
+***
+
+GERRIT
+------
+Gerrit Link : review.blissroms.com:8081
+
+If you would like to contribute to the blissrom project submit patches to:
+`review.blissroms.com:8081`. Then head into the project and clone it locally, make changes and push back to Bliss review.
+
+How To Submit Patches To Our Gerrit
+-----------------------------------
+
+- First and foremost, setup your github with out Gerrit.
+
+- Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
+   -Select from the list and copy clone command line.
+
+- Make sure you have git review installed
+   - sudo apt-get install git-review
+   
+- Make sure you are on the correct branch---- n7.1-caf
+
+- Make your change and commit it
+
+Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
+
