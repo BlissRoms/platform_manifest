@@ -78,6 +78,7 @@
   <project name="platform_hardware_qcom_camera" path="hardware/qcom/camera" remote="BlissRoms" />
   <project name="platform_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="BlissRoms" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="BlissRoms" />
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" />
 
   <!-- CM -->
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="cm"/>
