@@ -68,8 +68,10 @@
   <project name="platform_system_media" path="system/media" remote="BlissRoms"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms"/>
   <project name="platform_system_vold" path="system/vold" remote="BlissRoms"/>
+  <project name="platform_system_qcom" path="system/qcom" remote="BlissRoms"/>
   <project name="platform_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="BlissRoms"/>
   <project name="platform_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="BlissRoms"/>
+  <project name="platform_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="BlissRoms"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms"/>
   <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="BlissRoms"/>
   <project name="platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="BlissRoms"/>
@@ -514,7 +516,6 @@
   <project name="platform/system/nativepower" path="system/nativepower"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/nvram" path="system/nvram"/>
-  <project name="platform/system/qcom" path="system/softap"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl"/>
   <project name="platform/system/tpm" path="system/tpm"/>
@@ -528,7 +529,6 @@
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc"/>
-  <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="toolchain/binutils"/>
 
