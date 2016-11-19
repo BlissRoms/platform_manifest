@@ -31,11 +31,11 @@
            sync-j="4" />
 
 <!-- BEGIN BLISS -->
-  <project path="build" name="platform_build" remote="BlissRoms" revision="n7.0" >
+  <project path="build" name="platform_build" remote="BlissRoms" revision="n7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.0" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.1" />
 
 <!--  
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
@@ -64,7 +64,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />  
 -->
 
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.0" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.1" />
 
 <!-- END BLISS -->
 
