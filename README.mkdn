@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the Bliss trees, use this command:
 
 
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b n7.0
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b n7.1
 
 Then to sync up:
 
@@ -57,7 +57,7 @@ Clone the repo you would like to commit to from the Gerrit [Project List](http:/
 Make sure you have git review installed
    - sudo apt-get install git-review
    
-Make sure you are on the correct branch---- n7.0
+Make sure you are on the correct branch---- n7.1
 
 Make your change and commit it
 
@@ -67,6 +67,15 @@ BLISS BUILD FLAGS
 -----------------
 
 These can be added to your device trees BoardConfig.mk
+
+`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
+
+`TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
+
+@@= Toolchains are located in prebuilts/gcc/linux-x86 You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain. This goes for both ROM and KERNEL.
+
+LEGACY PARAMS
+-------------
 
 `BLISS_O3 := true`   run   "O3 optimizations on build"
 
@@ -78,8 +87,3 @@ These can be added to your device trees BoardConfig.mk
 
 `BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
 
-`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
-
-`TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
-
-@@= Toolchains are located in prebuilts/gcc/linux-x86 You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain. This goes for both ROM and KERNEL.
