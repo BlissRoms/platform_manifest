@@ -37,32 +37,34 @@
 
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.1" />
 
-<!--  
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
+  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.1" />
+<!--
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="BlissRoms" revision="n7.0" /> 
 
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.0" />
-  
-  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.0" />
+ --> 
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
+<!--
   <project path="hardware/nvidia/power" name="android_hardware_nvidia_power" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.0" />
-  <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="n7.0" />
-
+-->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="n7.1" />
+<!--
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.0" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.0" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.0" />
-
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />  
 -->
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.1" />
+
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" />  
 
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.1" />
 
@@ -77,7 +79,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -384,7 +385,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
@@ -406,14 +406,8 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -546,7 +540,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -556,7 +549,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
