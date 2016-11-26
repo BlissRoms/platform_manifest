@@ -39,9 +39,7 @@
 
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.1" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="BlissRoms" revision="n7.0" /> 
-<!--
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="n7.0" />
--->
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="n7.1" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="n7.1" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1" />
@@ -57,9 +55,9 @@
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
 <!--
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.0" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.0" />
 -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.1" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.1" />
 
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" />  
@@ -348,7 +346,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -452,7 +449,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
