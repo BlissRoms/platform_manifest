@@ -83,5 +83,3 @@ These can be added to your device trees BoardConfig.mk
 `TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
 
 @@= Toolchains are located in prebuilts/gcc/linux-x86 You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain. This goes for both ROM and KERNEL.
-
-Test push
