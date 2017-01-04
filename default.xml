@@ -90,12 +90,39 @@
 
 <!-- BEGIN LINEAGE-OS -->
   <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
+  <project name="android_external_libnfc-nci" path="external/libnfc-nci" remote="laos" />
+  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="laos" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="laos" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="laos" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="laos" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8994" />
 <!-- END LINEAGE-OS -->
+
+<!-- BEGIN SUBSTRATUM -->
+  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+<!-- ENG SUBSTRATUM -->
 
 <!-- BEGIN CODEAURORA -->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -244,8 +271,6 @@
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp"/>
   <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
-  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="nfc-aosp.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
