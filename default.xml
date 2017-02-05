@@ -498,35 +498,35 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/pdk" path="pdk" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="linux" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="linux,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/pdk" path="pdk" revision="android-framework.lnx.2.0.r5-rel" clone-depth="1" />
+  <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" clone-depth="1" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="linux" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="linux,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/connectivity/apmanager" path="system/connectivity/apmanager" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/connectivity/dhcp_client" path="system/connectivity/dhcp_client" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -544,7 +544,7 @@
   <project name="platform/system/weaved" path="system/weaved" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/system/webservd" path="system/webservd" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
+  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" clone-depth="1" />
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" revision="atel.lnx.2.0.r5-rel"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="nfc.lnx.2.0.r5-rel"/>
