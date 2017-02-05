@@ -61,6 +61,7 @@
   <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="BlissRoms" />
+  <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms" />
   <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="BlissRoms" />
@@ -407,7 +408,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/volley" path="frameworks/volley" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/webview" path="frameworks/webview" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="android-framework.lnx.2.0.r5-rel"/>
