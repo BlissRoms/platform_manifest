@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://source.codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="android-external.lnx.2.0.r5-rel"/>
 
   <remote  name="github"
