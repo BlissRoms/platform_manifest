@@ -73,6 +73,7 @@
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" />
+  <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
