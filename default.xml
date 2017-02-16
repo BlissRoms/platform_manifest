@@ -88,6 +88,9 @@
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="BlissRoms" />
+  <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="BlissRoms" />
+  <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="BlissRoms" />
+  <project name="platform_external_DUtils" path="external/DUtils" remote="BlissRoms" />
 <!-- END BLISSROMS -->
 
 <!-- BEGIN LINEAGE-OS -->
@@ -464,7 +467,6 @@
   <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="nfc-aosp.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="refs/heads/camera.lnx.1.0.r5-rel"/>
-  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonLauncher" path="packages/apps/SnapdragonLauncher" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="android_ui.lnx.2.1.r5-rel"/>
