@@ -74,6 +74,9 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" />
+  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="BlissRoms" />
+  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
@@ -435,8 +438,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="android_ui.lnx.2.1.r5-rel"/>
@@ -460,7 +461,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="android_ui.lnx.2.1.r5-rel"/>
