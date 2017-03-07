@@ -53,12 +53,11 @@
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
 
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.1" />
-
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="n7.1" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="n7.1" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" />  
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
