@@ -74,6 +74,7 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
+  <project name="platform_packages_apps_AboutBliss" path="packages/apps/AboutBliss" remote="BlissRoms" />
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" />
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="BlissRoms" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="BlissRoms" />
