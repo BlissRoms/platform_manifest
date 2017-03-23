@@ -258,7 +258,6 @@
   <project groups="pdk" name="platform/external/javassist" path="external/javassist"/>
   <project groups="pdk" name="platform/external/jcommander" path="external/jcommander"/>
   <project groups="pdk" name="platform/external/jdiff" path="external/jdiff"/>
-  <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="pdk" name="platform/external/jetty" path="external/jetty"/>
   <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk" name="platform/external/jmdns" path="external/jmdns"/>
