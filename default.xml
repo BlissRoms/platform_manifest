@@ -64,6 +64,7 @@
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="BlissRoms" />
   <project name="platform_external_zlib" path="external/zlib" remote="BlissRoms" />
   <project name="platform_external_DUtils" path="external/DUtils" remote="BlissRoms" />
+  <project name="platform_external_jemalloc" path="external/jemalloc" remote="BlissRoms" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" />
