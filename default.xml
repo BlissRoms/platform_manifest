@@ -90,7 +90,6 @@
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" />
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="BlissRoms" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="BlissRoms" />
-  <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
@@ -259,6 +258,7 @@
   <project groups="pdk" name="platform/external/javassist" path="external/javassist"/>
   <project groups="pdk" name="platform/external/jcommander" path="external/jcommander"/>
   <project groups="pdk" name="platform/external/jdiff" path="external/jdiff"/>
+  <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="pdk" name="platform/external/jetty" path="external/jetty"/>
   <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk" name="platform/external/jmdns" path="external/jmdns"/>
@@ -458,6 +458,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
+  <project groups="pdk-fs" name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" />
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" />
   <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" />
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
