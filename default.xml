@@ -91,6 +91,8 @@
   <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="BlissRoms" />
   <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="BlissRoms" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="BlissRoms" />
+  <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" />
+  <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
