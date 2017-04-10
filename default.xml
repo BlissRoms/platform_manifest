@@ -93,6 +93,7 @@
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="BlissRoms" />
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" />
+  <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="BlissRoms" />
   <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="BlissRoms" />
@@ -475,7 +476,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" />
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" />
   <project groups="pdk-fs" name="platform/packages/apps/Phone" path="packages/apps/Phone" />
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" />
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" />
