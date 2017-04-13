@@ -94,6 +94,7 @@
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" />
   <project name="platform_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="BlissRoms" />
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" />
   <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="BlissRoms" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="BlissRoms" />
@@ -470,7 +471,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" />
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" />
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
-  <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" />
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
   <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" />
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
