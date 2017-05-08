@@ -121,7 +121,6 @@
   <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="BlissRoms" />
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="BlissRoms" />
   <project name="platform_external_fuse" path="external/fuse" remote="BlissRoms" />
-  <project name="platform_external_google" path="external/google" remote="BlissRoms" />
   <project name="platform_external_jemalloc" path="external/jemalloc" remote="BlissRoms" />
   <project name="platform_external_mksh" path="external/mksh" remote="BlissRoms" />
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="BlissRoms" />

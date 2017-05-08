@@ -218,8 +218,6 @@
   <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2"/>
   <project groups="pdk" name="platform/external/libmtp" path="external/libmtp"/>
   <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack"/>
-  <project groups="pdk" name="platform/external/libnfc-nci" path="external/libnfc-nci" />
-  <project groups="pdk" name="platform/external/libnfc-nxp" path="external/libnfc-nxp"/>
   <project name="platform/external/libnfnetlink" path="external/libnfnetlink"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg"/>
@@ -528,7 +526,6 @@
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" />
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/telephony" />
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" />
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" />
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" />
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" />
