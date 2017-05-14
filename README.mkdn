@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/BlissRoms/platform_manifest/n7.1-caf/bliss-logo.png">
+<img src="https://raw.github.com/BlissRoms/platform_manifest/n2/bliss-logo.png">
 
 Getting Started 
 ---------------
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the Bliss trees, use this command:
 
 
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b n7.1-caf
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b n2
 
 Then to sync up:
 
@@ -49,7 +49,7 @@ How To Submit Patches To Our Gerrit
 - Make sure you have git review installed
    - sudo apt-get install git-review
    
-- Make sure you are on the correct branch---- n7.1-caf
+- Make sure you are on the correct branch ----> n2
 
 - Make your change and commit it
 

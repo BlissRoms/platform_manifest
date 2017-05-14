@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- REMOVE PROJECTS -->
+  <remove-project name="abl/tianocore/edk2" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/lk" />
+  <remove-project name="kernel/msm-4.4" />
+  <remove-project name="platform/abi/cpp" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/fsck_msdos" />
+  <remove-project name="platform/external/jemalloc" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/okhttp" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/qcom" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project name="platform/vendor/qcom-opensource/dpm" />
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
+  <remove-project name="platform/vendor/qcom-opensource/location" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/cobalt_32" />
+  <remove-project name="platform/vendor/qcom/falcon_32"/>
+  <remove-project name="platform/vendor/qcom/falcon_64"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <!-- REMOVE PROJECTS -->
+
+  <!-- BEGIN BLISSROMS -->
+  <project name="platform_art" path="art" remote="blissroms" />
+  <project name="platform_bionic" path="bionic" remote="blissroms" />
+  <project name="platform_build" path="build" remote="blissroms" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="platform_build_kati" path="build/kati" remote="blissroms" groups="pdk,tradefed" />
+  <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="blissroms" />
+  <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="blissroms" />
+  <project name="platform_external_bash" path="external/bash" remote="blissroms" />
+  <project name="platform_external_busybox" path="external/busybox" remote="blissroms" />
+  <project name="platform_external_connectivity" path="external/connectivity" remote="blissroms" />
+  <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="blissroms" />
+  <project name="platform_external_exfat" path="external/exfat" remote="blissroms" />
+  <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="blissroms" />
+  <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="blissroms" />
+  <project name="platform_external_fuse" path="external/fuse" remote="blissroms" />
+  <project name="platform_external_jemalloc" path="external/jemalloc" remote="blissroms" />
+  <project name="platform_external_mksh" path="external/mksh" remote="blissroms" />
+  <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="blissroms" />
+  <project name="platform_external_okhttp" path="external/okhttp" remote="blissroms" />
+  <project name="platform_external_skia" path="external/skia" remote="blissroms" />
+  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="blissroms" />
+  <project name="platform_external_tinycompress" path="external/tinycompress" remote="blissroms" />
+  <project name="platform_external_toybox" path="external/toybox" remote="blissroms" />
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="blissroms" />
+  <project name="platform_external_zlib" path="external/zlib" remote="blissroms" />
+  <project name="platform_frameworks_av" path="frameworks/av" remote="blissroms" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="blissroms" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="blissroms" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="blissroms" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="blissroms" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="blissroms" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="blissroms" />
+  <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="blissroms" />
+  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="blissroms" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="blissroms" />
+  <project name="platform_hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" remote="blissroms" />
+  <project name="platform_hardware_ril" path="hardware/ril" remote="blissroms" />
+  <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="blissroms" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="blissroms" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="blissroms" />
+  <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="blissroms" />
+  <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="blissroms" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="blissroms" />
+  <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="blissroms" />
+  <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="blissroms" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="blissroms" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="blissroms" />
+  <project name="platform_system_bt" path="system/bt" remote="blissroms" />
+  <project name="platform_system_core" path="system/core" remote="blissroms" />
+  <project name="platform_system_extras" path="system/extras" remote="blissroms" />
+  <project name="platform_system_media" path="system/media" remote="blissroms" />
+  <project name="platform_system_netd" path="system/netd" remote="blissroms" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="blissroms" />
+  <project name="platform_system_vold" path="system/vold" remote="blissroms" />
+  <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="blissroms" />
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="blissroms" />
+  <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="blissroms" />
+  <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="blissroms" />
+  <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="blissroms" />
+  <project name="platform_device_qcom_common" path="device/qcom/common" remote="blissroms" />
+  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="blissroms" />
+  <!-- END blissroms -->
+
+  <!-- BEGIN CAF -->
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
+  <!-- END CAF -->
+
+  <!-- BEGIN SUBSTRATUM -->
+  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+  <!-- ENG SUBSTRATUM -->
+
+  <!-- BEGIN LINEAGE-OS -->
+  <project name="android_external_libncurses" path="external/libncurses" remote="laos" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" groups="qcom,qcom_audio" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="laos" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="laos" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" groups="pdk,qcom,qcom_display" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" groups="qcom" remote="laos" revision="cm-14.1-caf-8084" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" groups="qcom" remote="laos" revision="cm-14.1-caf-8916" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" groups="qcom" remote="laos" revision="cm-14.1-caf-8937" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" groups="qcom" remote="laos" revision="cm-14.1-caf-8952" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" groups="qcom" remote="laos" revision="cm-14.1-caf-8960" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="laos" revision="cm-14.1-caf-8974" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" groups="qcom" remote="laos" revision="cm-14.1-caf-8994" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_packages_apps_Browser" path="packages/apps/Browser" remote="laos" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
+  <!-- END LINEAGE-OS -->
+
+</manifest>
