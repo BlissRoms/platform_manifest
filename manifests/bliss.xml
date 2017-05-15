@@ -40,6 +40,7 @@
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -118,6 +119,7 @@
   <project name="platform_external_zlib" path="external/zlib" remote="blissroms" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="blissroms" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="blissroms" />
+  <project name="platform_frameworks_support" path="frameworks/support" remote="blissroms" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="blissroms" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="blissroms" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="blissroms" />
