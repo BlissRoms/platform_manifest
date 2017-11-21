@@ -65,6 +65,7 @@
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
 
   <!--                              -->
 
@@ -140,6 +141,7 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" remote="BlissRoms" revison="o8.0" />
 
    <!-- Input -->
 
