@@ -44,8 +44,10 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/system/netd" />
@@ -63,8 +65,10 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
@@ -115,6 +119,8 @@
   <project path="external/htop" name="platform_external_htop" remote="BlissRoms" revision="o8.0" />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" revision="o8.0" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="BlissRoms" revision="o8.0" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="BlissRoms" />
   <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="BlissRoms" />
   <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
   <project path="external/nano" name="platform_external_nano" remote="BlissRoms" />
@@ -129,6 +135,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
 
   <!-- Hardware -->
 
@@ -144,6 +151,7 @@
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" >
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
   </project>
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
