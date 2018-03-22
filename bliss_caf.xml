@@ -13,12 +13,13 @@
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="BlissRoms" revision="o8.0" />
 
   <!-- Vendors -->
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="BlissRoms" revision="o8.0" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" revision="o8.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" revision="o8.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="BlissRoms" revision="o8.0-rebase" >
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="BlissRoms" revision="o8.1" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="BlissRoms" revision="o8.1" />
 
   <!-- System QCOM-->
   <project path="system/qcom" name="platform_system_qcom" remote="BlissRoms" revision="o8.0" />
