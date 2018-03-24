@@ -56,6 +56,7 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/MusicFX" />
@@ -106,7 +107,7 @@
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" revision="o8.1" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
-  <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="BlissRoms" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="BlissRoms" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
