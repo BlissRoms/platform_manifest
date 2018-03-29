@@ -26,6 +26,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
@@ -61,6 +62,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/external/mksh" />
@@ -111,7 +113,7 @@
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="BlissRoms" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
-
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" />
   <!-- External -->
   <project path="external/connectivity" name="platform_external_connectivity" remote="BlissRoms" revision="o8.0" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="BlissRoms" revision="o8.0" />
@@ -139,6 +141,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" />
 
   <!-- Hardware -->
 
