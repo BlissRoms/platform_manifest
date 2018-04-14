@@ -64,6 +64,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
