@@ -22,20 +22,25 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/development" />
+  <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/opt/net/ims" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/external/elfutils" />
-  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/gps" />
@@ -47,14 +52,9 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/rs" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/nfc" />
-  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -63,21 +63,29 @@
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/toybox" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
-  <remove-project name="platform/external/libnfnetlink" />
-  <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/hwservicemanager" />
 
   <!--                              -->
 
@@ -100,10 +108,12 @@
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
+  <project path="development" name="platform_development" remote="BlissRoms" />
 
   <!-- Apps -->
-
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
@@ -115,6 +125,9 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="BlissRoms" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" />
+  
   <!-- External -->
   <project path="external/connectivity" name="platform_external_connectivity" remote="BlissRoms" revision="o8.0" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="BlissRoms" revision="o8.0" />
@@ -145,7 +158,6 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" />
 
   <!-- Hardware -->
-
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" />
@@ -163,12 +175,11 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
-   <!-- Input -->
-
+  <!-- Input -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Providers -->
-
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" />
 
@@ -177,7 +188,6 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
 
   <!-- System -->
-
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
@@ -187,9 +197,11 @@
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/media" name="platform_system_media" remote="BlissRoms" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissRoms" />
-
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" remote="BlissRoms" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="BlissRoms" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
+  
   <!-- Vendor -->
-
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
 
 </manifest>
