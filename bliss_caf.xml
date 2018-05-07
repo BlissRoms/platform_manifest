@@ -60,5 +60,10 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="BlissRoms" revision="o8.1" />
-
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" revision="o8.1" >
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/nxp/opensource/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" revision="o8.1" />
 </manifest>
