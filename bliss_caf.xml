@@ -2,22 +2,22 @@
 <manifest>
 
   <!-- Ant Wireless -->
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="BlissRoms" revision="o8.1" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="BlissRoms" revision="o8.1" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="BlissRoms" revision="o8.1" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="BlissRoms" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="BlissRoms" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="BlissRoms" />
   
   <!-- External -->
-  <project path="external/brctl" name="platform_external_brctl" remote="BlissRoms" revision="o8.1" />
+  <project path="external/brctl" name="platform_external_brctl" remote="BlissRoms" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="BlissRoms" />
   <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="BlissRoms" />
   <project path="external/powertop" name="platform_external_powertop" remote="BlissRoms" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt-caf" remote="BlissRoms" revision="o8.1" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="BlissRoms" revision="o8.1" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" revision="o8.1" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="BlissRoms" revision="o8.1" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="BlissRoms" revision="o8.1" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt-caf" remote="BlissRoms" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="BlissRoms" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="BlissRoms" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="BlissRoms" />
 
   <!-- Hardware QCOM HAL -->
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.1-caf-8084" />
@@ -46,24 +46,24 @@
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.1-caf-8998" />
 
   <!-- Sepolicy -->
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" revision="o8.1" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="o8.1" />
+  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
 
   <!-- System QCOM-->
   <project path="system/qcom" name="platform_system_qcom" remote="BlissRoms" />
 
   <!-- Vendors -->
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="BlissRoms" revision="o8.1" >
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="BlissRoms" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/nxp/interfaces/opensource/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" revision="o8.1" >
+  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="BlissRoms" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" >
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
-  <project path="vendor/nxp/opensource/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/nxp/opensource/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="BlissRoms" revision="o8.1" />
-  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" revision="o8.1" />
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" />
+  <project path="vendor/nxp/opensource/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="BlissRoms" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" />
 </manifest>
