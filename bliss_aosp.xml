@@ -163,7 +163,7 @@
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
-  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.1" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
