@@ -200,7 +200,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/kati" name="platform_build_kati" remote="BlissRoms" />
   <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />

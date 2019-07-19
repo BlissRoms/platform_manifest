@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Begin LOS repos -->
+  <project path="build/kati" name="android_build_kati" remote="los" />
   <project path="dalvik" name="android_dalvik" remote="los" />
   <project path="development" name="android_development" remote="los" />
 
