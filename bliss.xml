@@ -207,7 +207,6 @@
   </project>
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
-  <project path="development" name="platform_development" remote="BlissRoms" />
 
   <!-- Apps -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
