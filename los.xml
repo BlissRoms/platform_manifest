@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Begin LOS repos -->
+  <project path="dalvik" name="android_dalvik" remote="los" />
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="los" />
