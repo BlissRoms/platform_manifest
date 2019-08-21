@@ -20,6 +20,9 @@
   <remote name="github"
           fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- Remove first some AOSP repos -->
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
