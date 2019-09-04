@@ -12,6 +12,10 @@
   <remote name="github"
           fetch="https://github.com/" />
 
+  <remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-16.0" />
+          
   <!-- Remove first some AOSP repos -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
@@ -24,10 +28,20 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/vold" />
@@ -35,6 +49,10 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/tools/hidl" />
 
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
@@ -71,6 +89,10 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+
+  <!-- Hardware -->
+  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
+  <project path="hardware/libhardware_legacy" name="platform_libhardware_legacy" remote="BlissRoms" />
 
   <!-- InputMethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
