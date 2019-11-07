@@ -53,6 +53,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
