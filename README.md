@@ -47,10 +47,6 @@ sync repo :
 
     $ repo sync --no-tags --no-clone-bundle
     
-problems syncing? :
-
-    $ repo sync --no-tags --no-clone-bundle --force-sync
-
 Building
 --------
 treble build options explained:
