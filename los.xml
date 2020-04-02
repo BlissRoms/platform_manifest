@@ -112,6 +112,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" groups="pdk" clone-depth="1" remote="los" />
   
+  <!-- Sepolicy Repos -->
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy" />  
+
   <!-- System Repos -->
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="los" />
