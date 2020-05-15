@@ -4,6 +4,9 @@
   <!-- General -->
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
 
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" />
+
   <!-- Frameworks -->
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="los" />
   
