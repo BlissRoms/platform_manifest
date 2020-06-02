@@ -297,4 +297,6 @@
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
   <project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" />
 
+  <project path="vendor/gapps" name="vendor_gapps" remote="BlissRoms-gitlab" />
+
 </manifest>
