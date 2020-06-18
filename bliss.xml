@@ -254,6 +254,7 @@
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="BlissRoms" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="BlissRoms" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="BlissRoms" />
+  <project path="hardware/samsung" name="platform_hardware_samsung" remote="BlissRoms" />
 
   <!-- Interfaces -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
