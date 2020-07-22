@@ -13,6 +13,10 @@
           fetch="https://gitlab.com/BlissRoms"
           revision="q" />
 
+  <remote name="BlissRoms-Next"
+          fetch="https://github.com/BlissRoms-Next"
+          revision="q" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
@@ -226,7 +230,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms-Next" />
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="BlissRoms" />
