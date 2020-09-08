@@ -119,6 +119,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -134,6 +135,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.0-legacy" />
 
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
