@@ -21,7 +21,7 @@ What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifes
 
 Installing Java 8
 
-    sudo add-apt-repository ppa:openjdk/ppa
+    sudo add-apt-repository ppa:openjdk-r/ppa
     sudo apt-get update && upgrade
     sudo apt-get install openjdk-8-jdk
     update-alternatives --config java  (make sure Java 8 is selected)
