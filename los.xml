@@ -78,6 +78,8 @@
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="los" />
+  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" revision="lineage-18.1-caf" /> 
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-18.1-caf-apq8084" />
@@ -193,4 +195,5 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="los" />
 </manifest>
