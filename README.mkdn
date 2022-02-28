@@ -13,7 +13,7 @@ To initialize your local repository using the Bliss trees, use this command:
 
 Then to sync up:
 
-    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+    repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
 
 This(j#) depends on number of cpu cores - use just "repo sync" if you are unsure.
 

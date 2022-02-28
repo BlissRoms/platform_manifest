@@ -82,7 +82,7 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
-  <project name="platform_packages_apps_AboutBliss" path="packages/apps/AboutBliss" remote="BlissRoms" />
+  <project name="platform_packages_apps_AboutBliss-deprecated" path="packages/apps/AboutBliss" remote="BlissRoms" />
   <project name="platform_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="BlissRoms" />
   <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="BlissRoms" />
   <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="BlissRoms" />
@@ -103,7 +103,7 @@
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   <project name="platform_system_bt" path="system/bt" remote="BlissRoms" />
-  <project name="platform_system_core" path="system/core" remote="BlissRoms" />
+  <project name="platform_system_core_old" path="system/core" remote="BlissRoms" />
   <project name="platform_system_extras" path="system/extras" remote="BlissRoms" />
   <project name="platform_system_media" path="system/media" remote="BlissRoms" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" />
