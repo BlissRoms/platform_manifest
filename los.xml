@@ -12,8 +12,10 @@
   <!--<project path="external/bash" name="android_external_bash" remote="lineage" />-->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />-->
   <!--<project path="external/nano" name="android_external_nano" remote="lineage" />-->
@@ -22,7 +24,7 @@
   <!--<project path="external/pigz" name="android_external_pigz" remote="lineage" />-->
   <!--<project path="external/rsync" name="android_external_rsync" remote="lineage" />-->
   <!--<project path="external/unrar" name="android_external_unrar" remote="lineage" />-->
-  <!--<project path="external/vim" name="android_external_vim" remote="lineage" />-->
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <!--<project path="external/zip" name="android_external_zip" remote="lineage" />-->
   <!--<project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="lineage" />-->
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
@@ -60,7 +62,7 @@
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />-->
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -92,6 +94,8 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+    <!-- add namespace for BT adv audio, as required for QTI BT stack -->
+    <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
   </project>
   <!--<project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8916" remote="lineage" />-->
@@ -115,17 +119,20 @@
   <!--<project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-msm8998" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-msm8998" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8998" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sdm845" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sdm845" remote="lineage" /> -->
-  <!--<project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8250" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8250" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8250" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8350" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />-->
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sdm845" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />
 
   <!-- Prebuilts -->
@@ -143,13 +150,6 @@
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-
-
-  <!-- Sepolicy -->
-  <!--<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.0-legacy" remote="lineage" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.0-legacy-um" remote="lineage" /> -->
-  <!--<project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="lineage" />-->
 
   <!-- System -->
   <!--<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
@@ -170,24 +170,24 @@
   <!--<project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-19.0-pn5xx" remote="lineage" />-->
   <!--<project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-19.0-sn100x" remote="lineage" />-->
   <!--<project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-19.0-sn100x" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom"remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom"remote="lineage" />-->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom"remote="lineage" />-->
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom"remote="lineage" />-->
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
   <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="lineage" />-->
   <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
   <!--<project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="lineage" />-->
-  <!--<project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="lineage" />
 </manifest>
