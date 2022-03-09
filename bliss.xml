@@ -3,7 +3,7 @@
         
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
-          revision="arcadia"
+          revision="s"
           review="review.blissroms.org" />
 
   <remote name="BlissRoms-Devices"
