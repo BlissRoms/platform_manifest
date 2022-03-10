@@ -189,7 +189,7 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sm8250" />
-  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="BlissRoms" revision="arcadia" />
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
@@ -236,11 +236,11 @@
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> 
   <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="BlissRoms" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" revision="arcadia" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" revision="arcadia" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" revision="arcadia" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="BlissRoms" revision="arcadia" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" revision="arcadia" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="BlissRoms" revision="arcadia-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="BlissRoms" revision="arcadia-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="BlissRoms" revision="arcadia-sn100x" />
