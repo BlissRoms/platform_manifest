@@ -57,6 +57,7 @@
 
   <!-- Core -->
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
@@ -91,6 +92,9 @@
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
+  <!-- Modules -->
+  <remove-project name="platform/packages/modules/adb"/>
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Contacts"/>
   <remove-project name="platform/packages/apps/Dialer" />
@@ -115,6 +119,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
