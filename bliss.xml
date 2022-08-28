@@ -113,6 +113,9 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="BlissRoms" />
+
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
