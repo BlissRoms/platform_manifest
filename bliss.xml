@@ -48,6 +48,7 @@
   <!-- External -->
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="BlissRoms" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
+  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <!--<project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
