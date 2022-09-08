@@ -64,8 +64,10 @@
   <!-- External -->
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -121,6 +123,8 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/logging" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />

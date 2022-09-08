@@ -12,6 +12,10 @@
   <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom_sm7250" revision="lineage-19.1" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel" revision="lineage-19.1" remote="lineage" />-->
 
+  <!-- External -->
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" revision="lineage-20.0" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" revision="lineage-20.0" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
@@ -22,6 +26,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="lineage" groups="pdk,linux,x86" clone-depth="1" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+
+  <!-- System -->
+  <project path="system/logging" name="android_system_logging" remote="lineage" revision="lineage-20.0" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" revision="lineage-20.0" />
 
   <!-- CodeLinaro additions -->
   <!-- External -->
