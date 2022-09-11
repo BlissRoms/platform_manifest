@@ -46,9 +46,6 @@
   </project>
 
   <!-- External -->
-  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="BlissRoms" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
-  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <!--<project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
@@ -76,14 +73,10 @@
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" remote="BlissRoms" />
   <project path="hardware/qcom/sdm845/media" name="platform_hardware_qcom_sdm845_media" remote="BlissRoms" />
-  <project path="hardware/qcom/sm7250/display" name="platform_hardware_qcom_sm7250_display" remote="BlissRoms" />
-  <project path="hardware/qcom/sm7250/media" name="platform_hardware_qcom_sm7250_media" remote="BlissRoms" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform_hardware_qcom_sm8150_data_ipacfg-mgr" remote="BlissRoms" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" remote="BlissRoms" />
-  <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" remote="BlissRoms" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
   <!-- CAF Hardware (Qcom)-->
@@ -143,6 +136,4 @@
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="BlissRoms" />
 </manifest>
