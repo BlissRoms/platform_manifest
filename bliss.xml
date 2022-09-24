@@ -142,6 +142,8 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="BlissRoms" />
