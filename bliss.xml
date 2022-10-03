@@ -22,6 +22,11 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
   <!-- Remove first some AOSP repos -->
   <include name="remove.xml" />
 
@@ -88,11 +93,6 @@
 
   <!-- CAF Hardware (Qcom)-->
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="pdk-qcom,qcom,qcom_audio" revision="t-caf-sm8250" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="t-caf-sm8250" remote="BlissRoms" />
-  <!--<project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="BlissRoms" revision="arcadia-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm660" /> -->
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
@@ -123,9 +123,15 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
 
   <!-- Qualcomm Hals -->
-  <project path="hardware/qcom-caf/sdm660/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="arrow-13.0-caf-sdm660" remote="github" />
-  <project path="hardware/qcom-caf/sdm660/display" name="ArrowOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="arrow-13.0-caf-sdm660" remote="github" />
-  <project path="hardware/qcom-caf/sdm660/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom,qcom_media" revision="arrow-13.0-caf-sdm660" remote="github" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="arrow-13.0-caf-sdm660" remote="arrow" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" revision="arrow-13.0-caf-sdm660" remote="arrow" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" revision="arrow-13.0-caf-sdm660" remote="arrow" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" remote="arrow" revision="arrow-13.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk,qcom,kona" remote="arrow" revision="arrow-13.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,kona" remote="arrow" revision="arrow-13.0-caf-sm8250" />
 
   <!-- Sepolicy -->
   <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
