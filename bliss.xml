@@ -51,10 +51,6 @@
   </project>
 
   <!-- External -->
-  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="BlissRoms" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
-  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <!--<project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
@@ -71,14 +67,8 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
-  <project path="hardware/lineage/livedisplay" name="platform_hardware_lineage_livedisplay" remote="BlissRoms" />
 
   <!-- Hardware (Qcom)-->
-  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="BlissRoms" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" remote="BlissRoms" />
   <project path="hardware/qcom/sdm845/media" name="platform_hardware_qcom_sdm845_media" remote="BlissRoms" />
   <project path="hardware/qcom/sm7250/display" name="platform_hardware_qcom_sm7250_display" remote="BlissRoms" />
@@ -89,7 +79,6 @@
   </project>
   <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" remote="BlissRoms" />
   <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" remote="BlissRoms" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
   <!-- CAF Hardware (Qcom)-->
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
@@ -160,8 +149,5 @@
   <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="t" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="BlissRoms" />
 </manifest>
