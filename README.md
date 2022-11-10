@@ -45,11 +45,11 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b t
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b typhoon
 
 **Sync repo**
 
-    repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+    repo sync -c --force-sync --no-tags --no-clone-bundle -j10 --optimized-fetch --prune
 
 ## Options
 
