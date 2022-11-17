@@ -51,6 +51,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <project path="external/roboto-fonts" name="platform_external_roboto-fonts" remote="BlissRoms" />
   <!--<project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
