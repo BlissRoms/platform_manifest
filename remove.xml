@@ -40,7 +40,6 @@
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/gs201" />
@@ -75,6 +74,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/roboto-fonts" />
+  <remove-project name="platform/external/android-nn-driver" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -87,6 +87,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/google/graphics/gs201" />
+  <remove-project name="platform/hardware/google/pixel" />
 
   <!-- Hardware (Qcom) -->
   <remove-project name="platform/hardware/qcom/audio" />
