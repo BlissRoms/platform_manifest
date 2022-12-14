@@ -107,6 +107,7 @@
 
   <!-- Modules -->
   <remove-project name="platform/packages/modules/adb"/>
+  <remove-project name="platform/packages/modules/Bluetooth"/>
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Contacts"/>
