@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        
+
   <remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          revision="t"
+          review="review.blissroms.org" />
+
+  <remote name="BlissRoms-Open"
           fetch="https://github.com/BlissRoms"
           revision="typhoon"
           review="review.blissroms.org" />
@@ -85,7 +90,7 @@
   <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" remote="BlissRoms" />
 
   <!-- CAF Hardware (Qcom)-->
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms-Open" />
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
@@ -102,7 +107,7 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
-  <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="BlissRoms" />
+  <!--<project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="BlissRoms" /> -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
@@ -139,14 +144,14 @@
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
 
   <!-- Sepolicy -->
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="t-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="t-legacy-um" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms-Open" revision="t-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms-Open" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="BlissRoms-Open" revision="t-legacy-um" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms-Open" />
+  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms-Open" />
 
   <!-- System -->
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
+  <project path="system/core" name="platform_system_core" remote="BlissRoms-Open" revision="staging" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="BlissRoms" />
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
