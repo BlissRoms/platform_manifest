@@ -66,6 +66,7 @@
   <remove-project name="platform/build/soong" />
 
   <!-- External -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
