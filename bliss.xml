@@ -58,7 +58,6 @@
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <project path="external/roboto-fonts" name="platform_external_roboto-fonts" remote="BlissRoms" />
-  <project path="external/android-nn-driver" name="platform_external_android-nn-driver" remote="BlissRoms" />
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <!--<project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" /> -->
@@ -74,7 +73,6 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
-  <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="BlissRoms" />
 
   <!-- Hardware (Qcom)-->
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" remote="BlissRoms" />
