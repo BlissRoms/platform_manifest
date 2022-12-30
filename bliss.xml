@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+        
   <remote name="BlissRoms"
-          fetch="https://github.com/BlissRoms"
-          revision="t"
-          review="review.blissroms.org" />
-
-  <remote name="BlissRoms-Open"
           fetch="https://github.com/BlissRoms"
           revision="typhoon"
           review="review.blissroms.org" />
@@ -131,14 +126,14 @@
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
 
   <!-- Sepolicy -->
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms-Open" revision="t-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms-Open" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="BlissRoms-Open" revision="t-legacy-um" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms-Open" />
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms-Open" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="t-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="t-legacy-um" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
+  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
-  <project path="system/core" name="platform_system_core" remote="BlissRoms-Open" revision="staging" />
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="BlissRoms" />
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
