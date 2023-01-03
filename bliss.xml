@@ -62,6 +62,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
