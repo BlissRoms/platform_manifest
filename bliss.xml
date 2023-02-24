@@ -120,9 +120,6 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
 
   <!-- Qualcomm Hals -->
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,sdm845" remote="arrow" revision="arrow-13.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
