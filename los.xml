@@ -28,7 +28,6 @@
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" revision="lineage-19.1" remote="lineage" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
 
   <!-- Hardware -->

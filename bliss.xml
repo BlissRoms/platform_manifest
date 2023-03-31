@@ -54,6 +54,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <project path="external/roboto-fonts" name="platform_external_roboto-fonts" remote="BlissRoms" />
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="BlissRoms" />
   <!--<project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" /> -->
 
