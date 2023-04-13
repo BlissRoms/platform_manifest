@@ -3,7 +3,7 @@
         
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
-          revision="typhoon"
+          revision="typhoon-qpr2"
           review="review.blissroms.org" />
 
   <remote name="BlissRoms-Devices"
