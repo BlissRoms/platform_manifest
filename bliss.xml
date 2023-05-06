@@ -58,7 +58,7 @@
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" /> -->
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="e58b741659499de73ab58be311252183786699ee" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
@@ -95,19 +95,19 @@
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="BlissRoms" /> -->
 
   <!-- Packages -->
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="b9dd6f283b0135f3340e54a74e776e99a95ae06b" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="b18d2e774fb24a102e56a290f60f44117b165a25" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="a7a50e809c9a0ee1edfaa5e4be25c519b5ee209c" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/Etar" name="platform_packages_apps_Etar" remote="BlissRoms" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" revision="e81547eac02032ba3ec79b43cb32417c67546ccd" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" revision="24a3e7575bfb7316f1baeeb16ae8e20245545383" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/ParallelSpace" name="platform_packages_apps_ParallelSpace" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="1d9dfabd844cd91350a976c9da0cc75115a52302" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
   <project path="packages/apps/TouchGestures" name="platform_packages_apps_TouchGestures" remote="BlissRoms" />
