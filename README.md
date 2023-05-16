@@ -1,4 +1,4 @@
-<img src="https://imgur.com/jmiT0ss.png">
+<img src="banner.png">
 <p align="center">
 <a href="https://blissroms.org">Website</a> |
 <a href="https://downloads.blissroms.org">Download</a> |
