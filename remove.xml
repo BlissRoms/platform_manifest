@@ -112,6 +112,8 @@
   <remove-project name="platform/hardware/qcom/sdm845/gps" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
   <remove-project name="platform/hardware/qcom/sm8150/gps" />
+  <remove-project name="platform/hardware/qcom/sm7150/gps" />
+  <remove-project name="platform/hardware/qcom/sm8150p/gps" />
 
   <!-- Modules -->
   <remove-project name="platform/packages/modules/adb"/>
