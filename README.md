@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b typhoon-qpr2 --git-lfs
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b typhoon --git-lfs
 
 **Sync repo**
 
