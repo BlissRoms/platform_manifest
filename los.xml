@@ -100,6 +100,9 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
@@ -135,6 +138,11 @@
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom_media" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-20.0-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,lahaina" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-20.0-caf" />
