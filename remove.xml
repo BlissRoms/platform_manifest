@@ -119,6 +119,7 @@
 
   <!-- Modules -->
   <remove-project name="platform/packages/modules/adb"/>
+  <remove-project name="platform/packages/modules/Connectivity"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
 
   <!-- Packages -->
@@ -152,6 +153,7 @@
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
