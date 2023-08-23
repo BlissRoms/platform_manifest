@@ -67,6 +67,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
+  <project path="hardware/lineage/compat" name="platform_hardware_lineage_compat" remote="BlissRoms" />
 
   <!-- Hardware (Qcom)-->
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" remote="BlissRoms" />
