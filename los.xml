@@ -52,6 +52,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
   <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" remote="lineage" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
 
   <!-- Inline kernel build -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
