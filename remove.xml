@@ -76,6 +76,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/piex" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
