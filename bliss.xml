@@ -46,7 +46,7 @@
   </project>
 
   <!-- External -->
-  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/cronet" name="platform_external_cronet" remote="BlissRoms-gitlab" revision="universe" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="BlissRoms" />
   <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="BlissRoms" />
@@ -65,20 +65,6 @@
   <project path="hardware/lineage/compat" name="platform_hardware_lineage_compat" remote="BlissRoms" />
 
   <!-- Hardware QCOM -->
-  <project path="hardware/qcom-caf/msm8953/display" name="platform_hardware_qcom_display" groups="qcom,msm8953" revision="universe-caf-msm8953" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,sdm660" revision="universe-caf-sdm660" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="qcom,legacy-qcom" revision="universe-caf-msm8996" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="qcom,legacy-qcom" revision="universe-caf-msm8998" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" groups="qcom,sdm845" remote="BlissRoms" revision="universe-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" groups="qcom,sdm845" remote="BlissRoms" revision="universe-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,msmnile" remote="BlissRoms" revision="universe-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="qcom" remote="BlissRoms" revision="universe-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,kona" remote="BlissRoms" revision="universe-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="qcom" remote="BlissRoms" revision="universe-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom_display" groups="qcom" remote="BlissRoms" revision="universe-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="platform_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" remote="BlissRoms" revision="universe-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom_display" groups="qcom" remote="BlissRoms" revision="universe-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom_display" groups="qcom" remote="BlissRoms" revision="universe-caf-sm8550" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
   <!-- Modules -->
