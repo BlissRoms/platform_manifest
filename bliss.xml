@@ -92,10 +92,11 @@
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
 
   <!-- Sepolicy -->
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="universe-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="universe-legacy-um" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,sdm660" remote="BlissRoms" revision="universe-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="platform_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="BlissRoms" revision="universe-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="BlissRoms" revision="universe-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="BlissRoms" revision="universe-caf-sm8550" />
   <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
