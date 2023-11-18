@@ -47,6 +47,7 @@
 
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/android-nn-driver" name="platform_external_android-nn-driver" remote="BlissRoms" />
   <project path="external/cronet" name="platform_external_cronet" remote="BlissRoms-gitlab" revision="universe" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="BlissRoms" />
   <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="BlissRoms" />
