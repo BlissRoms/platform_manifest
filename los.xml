@@ -47,6 +47,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" groups="pdk-fs" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
