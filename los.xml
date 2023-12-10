@@ -5,6 +5,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-20.0"/>
 
+  <!-- ASB -->
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="external/pdfium" name="android_external_pdfium" groups="pdk" remote="lineage" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
