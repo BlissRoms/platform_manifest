@@ -3,7 +3,7 @@
 
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
-          revision="universe"
+          revision="universe-pre-qpr"
           review="review.blissroms.org" />
 
   <remote name="BlissRoms-Devices"
@@ -11,7 +11,7 @@
 
   <remote name="BlissRoms-gitlab"
           fetch="https://gitlab.com/BlissLabs/BlissRoms"
-          revision="universe" />
+          revision="universe-pre-qpr" />
 
   <remote name="BR-x86"
           fetch="https://github.com/BlissRoms-x86" />
@@ -48,7 +48,7 @@
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/android-nn-driver" name="platform_external_android-nn-driver" remote="BlissRoms" />
-  <project path="external/cronet" name="platform_external_cronet" remote="BlissRoms-gitlab" revision="universe" />
+  <project path="external/cronet" name="platform_external_cronet" remote="BlissRoms-gitlab" revision="universe-pre-qpr" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="BlissRoms" />
   <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="BlissRoms" />
@@ -97,10 +97,10 @@
 
   <!-- Sepolicy -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,qssi" remote="BlissRoms"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,sdm660" remote="BlissRoms" revision="universe-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="platform_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="BlissRoms" revision="universe-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="BlissRoms" revision="universe-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="BlissRoms" revision="universe-caf-sm8550" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,sdm660" remote="BlissRoms" revision="universe-pre-qpr-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="platform_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="BlissRoms" revision="universe-pre-qpr-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="platform_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="BlissRoms" revision="universe-pre-qpr-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="platform_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="BlissRoms" revision="universe-pre-qpr-caf-sm8550" />
   <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
@@ -118,8 +118,8 @@
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="BlissRoms-gitlab" clone-depth="1" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
-  <project path="vendor/gapps" name="platform_vendor_gapps" remote="BlissRoms-gitlab" clone-depth="1" revision="universe" />
-  <project path="vendor/SystemUIClocks" name="platform_vendor_systemuiclocks" remote="BlissRoms-gitlab" clone-depth="1" revision="universe" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="BlissRoms-gitlab" clone-depth="1" revision="universe-pre-qpr" />
+  <project path="vendor/SystemUIClocks" name="platform_vendor_systemuiclocks" remote="BlissRoms-gitlab" clone-depth="1" revision="universe-pre-qpr" />
 
   <!-- Vendor NXP -->
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" />
