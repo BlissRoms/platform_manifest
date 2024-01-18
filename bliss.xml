@@ -77,6 +77,7 @@
 
   <!-- Modules -->
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="BlissRoms" />
+  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="BlissRoms" groups="pdk" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="BlissRoms" />
@@ -104,6 +105,7 @@
   <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
+  <project path="system/bpf" name="platform_system_bpf" remote="BlissRoms" groups="pdk" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="BlissRoms" />
