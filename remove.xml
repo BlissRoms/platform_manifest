@@ -87,9 +87,11 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/google/gchips" />
@@ -98,6 +100,11 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- Hardware (QCOM) -->
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Kernel -->
