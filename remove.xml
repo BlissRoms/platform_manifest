@@ -79,6 +79,7 @@
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zstd" />
@@ -100,6 +101,7 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- Hardware (QCOM) -->
+  <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
