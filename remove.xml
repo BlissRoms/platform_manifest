@@ -115,6 +115,7 @@
   <!-- Modules -->
   <remove-project name="platform/packages/modules/adb"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
+  <remove-project name="platform/packages/modules/Wifi"/>
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Camera2" />

@@ -79,6 +79,7 @@
   <!-- Modules -->
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="BlissRoms" />
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="BlissRoms" groups="pdk" />
+  <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="BlissRoms" />
