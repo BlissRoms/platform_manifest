@@ -53,7 +53,7 @@ Installing Java 8
 
 ## Options
 
-	BLISS_BUILD_VARIANT - (vanilla, gapps, pixelgapps, foss, microg) - We currently use this to specify what type of extra apps and services to include in the build. 
+	BLISS_BUILD_VARIANT - (vanilla, gapps, foss, microg) - We currently use this to specify what type of extra apps and services to include in the build. 
 ***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
 
 ## Building
@@ -68,7 +68,6 @@ Installing Java 8
 -c | --clean: Clean up before running the build
 -d | --devclean: Clean up device only before running the build
 -v | --vanilla: Build with no added app store solution **default option**
--p | --pixelgapps: Builds with Pixel Gapps (only for Pixel Users)	
 -g | --gapps: Build with Minimal Google Play Services added
 -f | --foss: build with FOSS (arm64-v8a) app store solutions added **requires vendor/foss**
 -m | --microg: Build with MicroG
