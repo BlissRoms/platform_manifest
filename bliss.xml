@@ -119,6 +119,9 @@
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
 
+  <!-- Tools -->
+  <project path="bliss/scripts" name="platform_scripts" remote="BlissRoms" />
+
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/certification" name="platform_vendor_certification" remote="BlissRoms-gitlab" />
