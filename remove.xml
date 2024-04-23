@@ -86,6 +86,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/colorpicker" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/broadcom/libbt" />
