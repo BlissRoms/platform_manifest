@@ -40,6 +40,12 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" groups="qcom,pdk-qcom" remote="lineage" />
 
+  <!-- Hardware Pixel -->
+  <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" />
+  <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage" />
+
   <!-- Inline kernel build -->
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
