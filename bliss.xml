@@ -110,6 +110,7 @@
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="BlissRoms" />
+  <project path="system/logging" name="platform_system_logging" remote="BlissRoms" />
   <project path="system/security" name="platform_system_security" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="BlissRoms" />
