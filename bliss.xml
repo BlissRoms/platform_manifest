@@ -95,6 +95,7 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/calyx/datura" name="platform_prebuilts_calyx_datura" remote="BlissRoms" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="BlissRoms" />
 
   <!-- Sepolicy -->
@@ -111,6 +112,7 @@
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/libhidl" name="platform_system_libhidl" remote="BlissRoms" />
   <project path="system/logging" name="platform_system_logging" remote="BlissRoms" />
+  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/security" name="platform_system_security" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="BlissRoms" />
