@@ -73,6 +73,7 @@
   <remove-project name="device/sample" />
 
   <!-- External -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libnl" />
