@@ -138,6 +138,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
