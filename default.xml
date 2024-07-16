@@ -1400,5 +1400,6 @@
 
   <include name="bliss.xml" />
   <include name="los.xml" />
+  <include name="pixel.xml" />
 
 </manifest>
