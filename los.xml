@@ -5,6 +5,9 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-21.0"/>
 
+  <!-- Core -->
+  <project path="development" name="android_development" remote="lineage" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
@@ -30,6 +33,13 @@
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/avb" name="android_external_avb" remote="lineage" />
+  <project path="external/cronet" name="android_external_cronet" remote="lineage" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="lineage" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
+
 
   <!-- Legacy AOSP additions -->
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />

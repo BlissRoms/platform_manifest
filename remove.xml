@@ -7,6 +7,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/development" />
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -75,12 +76,18 @@
   <remove-project name="device/google/shusky-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libnl" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
 
   <!-- Frameworks -->
@@ -152,5 +159,4 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
-
 </manifest>
