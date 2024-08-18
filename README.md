@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b universe --git-lfs
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b universe-pixel --git-lfs
 
 **Sync repo**
 

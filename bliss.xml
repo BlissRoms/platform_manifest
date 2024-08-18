@@ -6,6 +6,11 @@
           revision="universe"
           review="review.blissroms.org" />
 
+  <remote name="BlissRoms-Pixel"
+          fetch="https://github.com/BlissRoms"
+          revision="universe-pixel"
+          review="review.blissroms.org" />
+
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
 
@@ -54,7 +59,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms-Pixel" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BlissRoms" />
   <project path="frameworks/opt/colorpicker" name="platform_frameworks_opt_colorpicker" remote="BlissRoms" />
@@ -91,7 +96,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/ParanoidSense" name="platform_packages_apps_paranoidsense" remote="BlissRoms-gitlab" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms-Pixel" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="BlissRoms" />
@@ -132,6 +137,7 @@
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/certification" name="platform_vendor_certification" remote="BlissRoms-gitlab" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
+  <project path="vendor/pixel-framework" name="platform_vendor_pixel-framework" remote="BlissRoms-Pixel" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="BlissRoms-gitlab" clone-depth="1" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="BlissRoms-gitlab" clone-depth="1" revision="universe" />
