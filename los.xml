@@ -73,6 +73,7 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- Modules -->
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="lineage" />
   <project path="packages/modules/NeuralNetworks" name="android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="lineage" />
@@ -185,6 +186,7 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="lineage" />
 
   <!-- Misc -->
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage" />

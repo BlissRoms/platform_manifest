@@ -93,7 +93,6 @@
   <!-- Modules -->
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="BlissRoms" />
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="BlissRoms" />
-  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="BlissRoms" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="BlissRoms" />
   <project path="packages/modules/DnsResolver" name="platform_packages_modules_DnsResolver" remote="BlissRoms" />
 
@@ -125,7 +124,6 @@
 
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" />
 
   <!-- Sepolicy -->
